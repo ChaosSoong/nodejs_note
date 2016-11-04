@@ -7,7 +7,9 @@ var server = http.createServer(function(request, response){
         response.end("Hello Chaos");
     }
     if(pathname = "second"){
-        console.log("Hello second");
+        console.log(process.platform);
+        console.log(process.pid);
+        console.log(process.env);
     }
     
 });
