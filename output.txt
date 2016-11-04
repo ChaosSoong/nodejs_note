@@ -1,0 +1,12 @@
+{
+  "name": "chaos",
+  "version": "1.0.1",
+  "description": "npm test",
+  "main": "server.js",
+  "scripts": {
+    "test": "make test",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
